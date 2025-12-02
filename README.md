@@ -27,7 +27,6 @@ A aplicação delega no LLM:
 | **Calculadora** | Realiza operações básicas: soma, subtração, multiplicação e divisão |
 | **CalculadoraAvancada** | Estende a calculadora com funcionalidades como potência, raiz quadrada e equações de 2º grau |
 | **ServicoLLM** | Responsável por enviar prompts ao LLM e receber respostas |
-| **Controlador** | Faz a ligação entre a interface do utilizador, a calculadora e o serviço LLM |
 
 ---
 
