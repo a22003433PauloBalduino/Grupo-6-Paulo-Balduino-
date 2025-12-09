@@ -28,7 +28,6 @@ A aplicação delega no LLM:
 |--------|------------------|
 | **Calculadora** | Realiza operações básicas: soma, subtração, multiplicação e divisão |
 | **CalculadoraAvancada** | Estende a calculadora com funcionalidades avançadas: potência, raiz quadrada e resolução de equações de 2º grau |
-| **ServicoLLM** | Responsável pela comunicação com o LLM: cria prompts, envia pedidos e processa respostas |
 | **CalculadoraGUI** | Interface gráfica completa construída em Swing; inclui botões, display, handlers e ligação às classes de cálculo |
 | **ServicoLLMTest** | Contém testes unitários que avaliam cálculos simples, cálculos avançados, exceções e casos fronteira |
 
