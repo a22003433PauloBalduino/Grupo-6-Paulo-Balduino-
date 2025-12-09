@@ -31,4 +31,5 @@ A aplicação delega no LLM:
 ---
 
 ###  Diagrama UML
-<img width="665" height="582" alt="UML" src="https://github.com/user-attachments/assets/241f1196-2495-4710-85f6-0cd8867a78c5" />
+<img width="3636" height="2098" alt="uml" src="https://github.com/user-attachments/assets/82173770-c2c9-4a35-a64e-9ef017ada543" />
+
