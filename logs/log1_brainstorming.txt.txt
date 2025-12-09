@@ -1,0 +1,29 @@
+Prompt feita:
+
+"Sugere quais operações matemáticas avançadas são boas candidatas para delegar num LLM numa aplicação Java de calculadora. O LLM deve ser capaz de fornecer comportamento inteligente e não apenas operações determinísticas. Dá exemplos e explica vantagens."
+
+Resposta
+
+Algumas operações avançadas apropriadas para delegar num LLM incluem:
+
+1. Resolução de equações de 2.º grau
+O LLM consegue interpretar a forma da equação, validar coeficientes e devolver soluções.
+Vantagem: evita erros na implementação manual de casos degenerados (Δ < 0, Δ = 0).
+
+2. Simplificação e resolução de expressões complexas
+Ex.: “3(2x − 4) + 5x = 19”.
+O LLM pode resolver diretamente ou simplificar antes de devolver o resultado.
+Vantagem: permite funcionalidades simbólicas sem biblioteca externa.
+
+3. Cálculo de derivadas básicas
+Ex.: derivar “5x³ − 2x + 7”.
+Vantagem: adiciona utilidade real sem exigir um motor CAS.
+
+4. Integrais simples ou definidas
+O LLM consegue integrar expressões como “∫ 3x² dx”.
+Vantagem: amplia muito o alcance matemático da calculadora.
+
+5. Avaliação de expressões textuais com erro humano
+Ex.: expressão mal formatada: “2 + + 5 * (3 – )”.
+O LLM pode corrigir e interpretar.
+Vantagem: comportamento verdadeiramente “inteligente”.

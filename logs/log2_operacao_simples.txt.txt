@@ -1,0 +1,9 @@
+Prompt feita:
+
+"Resolva a operação matemática seguinte e devolva apenas o resultado numérico, sem texto adicional: 12 + 5 * 3 - 8 / 2"
+
+Resposta
+
+23
+
+(Cálculo: 5×3 = 15 → 12 + 15 = 27 → 8/2 = 4 → 27 − 4 = 23)

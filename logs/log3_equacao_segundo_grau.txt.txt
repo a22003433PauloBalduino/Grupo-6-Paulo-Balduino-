@@ -1,0 +1,11 @@
+Prompt feita:
+
+"Resolva a seguinte equação do tipo ax² + bx + c = 0. Valores: a = 2, b = 5, c = -3. Devolva apenas as raízes, sem texto adicional."
+
+Resposta
+
+0.5, -3
+
+(Cálculo: Δ = 5² − 4·2·(−3) = 25 + 24 = 49 → √49 = 7
+x₁ = (−5 + 7)/4 = 0.5
+x₂ = (−5 − 7)/4 = −3)
