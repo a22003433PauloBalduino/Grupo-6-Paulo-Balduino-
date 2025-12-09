@@ -29,17 +29,17 @@ public class CalculadoraGUI {
     /**
      * Valor numérico armazenado quando o utilizador premir uma operação.
      */
-    private static double valorAtual = 0;
+    public static double valorAtual = 0;
 
     /**
      * Operação escolhida pelo utilizador (ex: "+", "-", "*", "/", "^").
      */
-    private static String operacao = "";
+    public static String operacao = "";
 
     /**
      * Indica se o display deve ser limpo antes de inserir novo texto.
      */
-    private static boolean limparDisplay = false;
+    public static boolean limparDisplay = false;
 
     /**
      * Ponto de entrada da aplicação gráfica da calculadora.

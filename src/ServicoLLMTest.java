@@ -27,7 +27,7 @@
          * </ul>
          */
         @Test
-        void testeCalculadoraSimples() {
+        public void testeCalculadoraSimples() {
             Calculadora calc = new Calculadora();
 
             // Teste de soma
@@ -56,7 +56,7 @@
          * </ul>
          */
         @Test
-        void testeCalculadoraAvancada() {
+        public void testeCalculadoraAvancada() {
             CalculadoraAvancada calc = new CalculadoraAvancada();
 
             // Teste de potência
@@ -96,7 +96,7 @@
          * uma exceção ao tentar dividir um número por zero.
          */
         @Test
-        void testeDivisaoPorZero() {
+        public void testeDivisaoPorZero() {
             Calculadora calc = new Calculadora();
             assertThrows(IllegalArgumentException.class, () -> calc.dividir(10, 0));
         }
@@ -106,7 +106,7 @@
          * resultado excede o limite do tipo {@code double} e produz um valor infinito.
          */
         @Test
-        void testeNumerosMuitoGrandes() {
+        public void testeNumerosMuitoGrandes() {
             Calculadora calc = new Calculadora();
             double resultado = calc.multiplicar(1e308, 2);
             assertTrue(Double.isInfinite(resultado));
@@ -117,7 +117,7 @@
          * operação devolve {@code NaN} conforme definido pelo método {@link Math#sqrt(double)}.
          */
         @Test
-        void testeRaizQuadradaNegativa() {
+        public void testeRaizQuadradaNegativa() {
             CalculadoraAvancada calc = new CalculadoraAvancada();
             double resultado = calc.raizQuadrada(-9);
             assertTrue(Double.isNaN(resultado));

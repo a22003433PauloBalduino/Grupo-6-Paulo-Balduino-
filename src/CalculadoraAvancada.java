@@ -2,7 +2,7 @@
  * Classe que representa uma calculadora avançada, estendendo a funcionalidade
  * da classe {@link Calculadora} com operações matemáticas adicionais.
  */
-class CalculadoraAvancada extends Calculadora {
+public class CalculadoraAvancada extends Calculadora {
 
     /**
      * Calcula a potência de um número.

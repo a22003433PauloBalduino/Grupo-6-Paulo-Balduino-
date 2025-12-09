@@ -1,7 +1,7 @@
 /**
  * Classe que disponibiliza operações aritméticas básicas.
  */
-class Calculadora {
+public class Calculadora {
 
     /**
      * Soma dois valores.
